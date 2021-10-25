@@ -1,0 +1,21 @@
+#@name getallcategories
+GET http://localhost:3000/api/categories
+
+###
+
+#@name addnewcategories
+POST http://localhost:3000/api/categories
+Content-Type: application/json
+
+{
+  "name": "Laptop"
+}
+
+
+#@name addnewcategories
+POST http://localhost:3000/api/categories
+Content-Type: application/json
+
+{
+  "name": "Laptop"
+}
